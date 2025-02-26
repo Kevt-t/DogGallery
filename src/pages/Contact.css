@@ -1,0 +1,73 @@
+/* Contact Page Styles */
+.contact-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: var(--background-color);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .dark-mode .contact-container {
+    background: var(--dark-bg);
+    color: var(--dark-text);
+  }
+  
+  .contact-title {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 18px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form-input,
+  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  .dark-mode .form-input,
+  .dark-mode .form-textarea {
+    background: var(--dark-bg);
+    color: var(--dark-text);
+    border-color: var(--dark-border);
+  }
+  
+  .form-textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .submit-button {
+    background: var(--primary-color);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .submit-button:hover {
+    background: var(--primary-hover);
+  }
+  
+  
